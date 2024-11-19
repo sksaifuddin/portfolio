@@ -158,18 +158,13 @@ export default function Page() {
             <div className="flex flex-col items-center justify-center space-y-4 text-center">
               <div className="space-y-2">
                 <div className="inline-block rounded-lg bg-foreground text-background px-3 py-1 text-sm">
-                  Hackathons
+                  Tech Community Engagement
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  I like building things
+                  Beyond coding, I am passionate about fostering innovation and sharing knowledge.
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended{" "}
-                  {DATA.hackathons.length}+ hackathons. People from around the
-                  country would come together and build incredible things in 2-3
-                  days. It was eye-opening to see the endless possibilities
-                  brought to life by a group of motivated and passionate
-                  individuals.
+                I&apos;ve contributed to open-source projects like official Visual Studio Code, Ng-speed-test, and Braintree_java. I also enjoy engaging with the tech community through meetups, and contributing to stackoverflow.
                 </p>
               </div>
             </div>
@@ -206,15 +201,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me an email at {" "}
                 <Link
-                  href={DATA.contact.social.X.url}
+                  href={DATA.contact.social.email.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on twitter
+                  shaiksaifuddin51@gmail.com
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                
               </p>
             </div>
           </BlurFade>
