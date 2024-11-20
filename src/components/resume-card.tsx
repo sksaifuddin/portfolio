@@ -31,6 +31,14 @@ export const ResumeCard = ({
 }: ResumeCardProps) => {
   const [isExpanded, setIsExpanded] = React.useState(false);
 
+  React.useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsExpanded(true);
+    }, 4000); // 3 seconds
+
+    return () => clearTimeout(timer); // Cleanup the timer on component unmount
+  }, []);
+
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
     if (description) {
       e.preventDefault();
@@ -75,7 +83,7 @@ export const ResumeCard = ({
                 )}
                 <ChevronRightIcon
                   className={cn(
-                    "size-4 translate-x-0 transform opacity-0 transition-all duration-300 ease-out group-hover:translate-x-1 group-hover:opacity-100",
+                    "size-4 transform transition-all duration-300 ease-out",
                     isExpanded ? "rotate-90" : "rotate-0"
                   )}
                 />
@@ -86,9 +94,10 @@ export const ResumeCard = ({
             </div>
             {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
           </CardHeader>
-          {description && (
+          {description && 
+          (
             <motion.div
-              initial={{ opacity: 0, height: 0 }}
+              initial={{ opacity: 0, height: "auto" }}
               animate={{
                 opacity: isExpanded ? 1 : 0,
 
@@ -100,9 +109,13 @@ export const ResumeCard = ({
               }}
               className="mt-2 text-xs sm:text-sm"
             >
-              {description}
+               {description}
             </motion.div>
-          )}
+          )
+          // <div className="mt-2 text-xs sm:text-sm">
+          //   {description}
+          // </div>
+          }
         </div>
       </Card>
     </Link>

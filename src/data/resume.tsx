@@ -88,7 +88,7 @@ export const DATA = {
       start: "Nov 2018",
       end: "Aug 2022",
       description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
+        "Contributed to 3 projects across different domains, utilizing Angular and React for front-end development, developed scalable, RESTful APIs using Node.js (Nest.js) and Java (Spring boot), adhering to API authentication protocols like OAuth2 and JWT, and leveraging Docker and AWS for containerization and Cloud deployment. ",
     }
   ],
   education: [
@@ -116,16 +116,16 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "A cloud based tool to create REST APIs without writing any code. Users will create tables to store the data and REST API end points to get, insert, update, delete the data of those tables will be dynamically generated. Users can directly use those API end points in their front-end applications.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "AWS",
+        "javascript",
+        "Node.js",
+        "cloudFormation",
+        "cloud",
+        "Docker",
+        "serverless",
+        "React"
       ],
       links: [
        
@@ -140,16 +140,16 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "API Automation tool to Test your APIs and Database. Application was built by a group of 5 students during the course CSCI 5308 - Advance Topics in Software Development and secured A+ grade.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "React.js",
+        "Spring Boot",
+        "Docker",
+        "CI/CD",
+        "TDD",
+        "Java",
+        "JavaScript",
+        "Gitlab",
       ],
       links: [
       ],
@@ -162,17 +162,10 @@ export const DATA = {
       dates: "",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Gather all the toads by this simple cool game of Mario built with Angular.",
       technologies: [
-        "Next.js",
+        "Angular",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
       ],
       links: [
       ],
@@ -186,14 +179,14 @@ export const DATA = {
       dates: "",
       location: "",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "Fixed a bug to escape special characters in .env in official Visual Studio Code repo.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "/vscode-logo.png",
       links: [
         {
           title: "Pull Request",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/microsoft/vscode/pull/82704",
         },
       ],
     },
@@ -202,14 +195,14 @@ export const DATA = {
       dates: "",
       location: "",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "Ng-speed-test: Made changes to Angular code to check the internet connection. ",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "/angular-logo.jpg",
       links: [
         {
           title: "Pull Request",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/jrquick17/ng-speed-test/pull/6",
         },
       ],
     },
@@ -218,14 +211,14 @@ export const DATA = {
       dates: "",
       location: "",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "Code refactoring using various refactoring techniques to improve code quality.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "/java-logo.png",
       links: [
         {
           title: "Pull Request",
           icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          href: "https://github.com/braintree/braintree_java/pull/121",
         },
       ],
     },
@@ -234,14 +227,14 @@ export const DATA = {
       dates: "",
       location: "",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "Contributor to Stack Overflow, aiding the developer community.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "stackoverflow-logo.png",
       links: [
         {
-          title: "Pull Request",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          title: "Profile",
+          icon: <Icons.profile className="h-4 w-4" />,
+          href: "https://stackoverflow.com/users/7138410/sksaif-uddin?tab=profile",
         },
       ],
     },
@@ -250,14 +243,14 @@ export const DATA = {
       dates: "",
       location: "",
       description:
-        "Developed a web application which aggregates social media data regarding cryptocurrencies and predicts future prices.",
+        "Presented a talk on Web Components at Halifax Tech Community Meetup Hfx.js. ",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/developer-week.jpg",
+        "hfx-logo.jpg",
       links: [
         {
-          title: "Pull Request",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "https://github.com/cryptotrends/cryptotrends",
+          title: "Slides",
+          icon: <Icons.slides className="h-4 w-4" />,
+          href: "https://docs.google.com/presentation/d/1A0D5JLVM5MxANrsCPuiBGa5DTiqNfpA7DEZ0tE7Bm9Q/edit#slide=id.p",
         },
       ],
     },
