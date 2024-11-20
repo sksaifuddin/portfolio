@@ -255,4 +255,14 @@ export const DATA = {
       ],
     },
   ],
+  certifications: [
+    {
+      title: "AWS Solutions Architect Associate",
+      href: "https://www.credly.com/badges/cd86c6f3-bc23-46bb-8788-70332fab6b13/public_url",
+      logoUrl: "/aws-logo.png",
+      start: "Aug 2023",
+      end: "Aug 2026",
+      description: "Passed official AWS Solutions Architect Associate exam",
+    },
+  ],
 } as const;
