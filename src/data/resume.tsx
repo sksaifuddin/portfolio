@@ -67,14 +67,26 @@ export const DATA = {
 
   work: [
     {
+      company: "ResMed",
+      href: "https://www.resmed.com/en-us/",
+      badges: [],
+      location: "Halifax",
+      title: "Platform Engineer",
+      logoUrl: "/resmed-logo.png",
+      start: "Feb 2025",
+      end: "Present",
+      description:
+        "",
+    },
+    {
       company: "Canada Revenue Agency",
       href: "https://www.canada.ca/en/revenue-agency.html",
       badges: [],
-      location: "Remote",
+      location: "Halifax",
       title: "IT Developer",
       logoUrl: "/cra-logo.png",
       start: "Jan 2024",
-      end: "Present",
+      end: "Dec 2024",
       description:
         "Built the tax filing portals (CRA sign-in services) being used by millions of Canadian taxpayers by actively contributing to the reengineering of outdated Struts pages to Angular 17 and Enterprise Java. ",
     },
@@ -82,7 +94,7 @@ export const DATA = {
       company: "Abjayon Inc",
       badges: [],
       href: "https://www.abjayon.com/",
-      location: "In-Person",
+      location: "Hyderabad",
       title: "Senior Software Engineer",
       logoUrl: "/abjayon-logo.jpg",
       start: "Nov 2018",
